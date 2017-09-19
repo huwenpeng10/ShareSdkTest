@@ -18,4 +18,25 @@
         android:id="@+id/login_btn"
         android:text="点击登录"/>
 
+    <Button
+        android:layout_below="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weixinlogin_btn"
+        android:text="点击微信登录"/>
+
+    <Button
+        android:layout_below="@+id/weixinlogin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weixinlogin_btn2"
+        android:text="点击微信授权登录"/>
+
+    <Button
+        android:layout_below="@+id/weixinlogin_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weixin_btn"
+        android:text="点击微信取消授权"/>
+
 </RelativeLayout>
